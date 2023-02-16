@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/logoGame.png">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mundo KO</title>
+  </head>
+  <body>
+    <div class="navbar-div">
+      <img
+        class="logo"
+        src="img/logoGame.png"
+        alt="Logo do Jogo Hogwarts Legacy"
+      />
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#novidade">Novidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#comunidade">Comunidade</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#video">Videos</a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="hero">
+      <img src="img/ho.jpg" alt="">
+      <div class="centro">MUNDO KO GAMES</div>
+    </section>
+
+    <div class="comunidade">
+      <h1> <a name="comunidade"></a> Comunidade no Discord</h1>
+      <img src="img/discord-logo.png" alt="">
+      <button class="glow-on-hover" type="button" onclick="window.open('https://discord.com/','_blank')">Participar da Comunidade</button>
+    </div>
+    
+
+    <div class="galeria">
+    <h1 class="main-title"><a name="novidade"></a> Jogos da Semana</h1>
+
+    <div class="container">
+      
+      <div class="content">
+        <a href="https://store.playstation.com/pt-br/concept/232447" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="img/mini1.webp" alt="">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Hogwarts Legacy</h3>
+            <p class="content-text">Hogwarts Legacy é um RPG de ação de mundo aberto ambientado no mundo introduzido pela primeira vez nos livros do Harry Potter</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container">
+      
+      <div class="content">
+        <a href="https://store.playstation.com/pt-br/concept/10004336" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="img/mini2.webp" alt="">
+          <div class="content-details fadeIn-top">
+            <h3> FIFA 23</h3>
+            <p>O EA SPORTS™ FIFA 23 proporciona ainda mais ação e realismo do futebol aos campos do Jogo de Todo Mundo com avanços na tecnologia HyperMotion2</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container">
+      
+      <div class="content">
+        <a href="https://store.playstation.com/pt-br/concept/10004836" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="img/mini3.webp" alt="">
+          <div class="content-details fadeIn-left">
+            <h3>NBA 2K23</h3>
+            <p>Mostre que você está à altura desta ocasião e libere todo o seu potencial no NBA 2K23. Enfrente os melhores jogadores do mundo e exiba seu talento no MyCAREER ou no The W</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="greedfall">
+    <h1> <a name="video"></a> Trailer: <a href="https://www.youtube.com/watch?v=3zRGQEGakVU&t=14s" target="_blank"> GreedFall - The Dying World</a></h1>
+
+    <video autoplay loop  muted plays-inline>
+      <source src="video/videoplayback.mp4" type="video/mp4">
+      </video>
+  </div>
+  
+  <div class="local">
+    <h1>Correspondentes do Mundo KO</h1>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.7041763306206!2d-38.508387680609914!3d-13.00519684910592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160361b6858881%3A0xa56066918d886e19!2sOndina%2C%20Salvador%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1676580593772!5m2!1spt-BR!2sbr" width="950" height="550" style="border:0;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="form">
+
+    <h1>Se increva para receber novidades</h1>
+    <form action="#">
+      <input type="email" name="email" placeholder="Email (ex. user@gmail.com)" required>
+      <button class="glow-on-hover" type="submit" value="Submit">Inscrever</button>
+    </form>
+    
+  </div>
+
+ 
+  <footer>
+    <p>Desenvolvido por &#169; Natasha Silva 2023</p>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+</html>
